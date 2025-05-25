@@ -1,34 +1,33 @@
 # Verilog-Code-for-Swapping-Three-Numbers
-Aim
+# Aim
 To design and simulate a Verilog HDL code for swapping the values of three numbers without using any temporary variables, and verify the correctness of the swapping operation through a testbench using the Vivado 2023.1 simulation environment.
 
-Apparatus Required
-Vivado 2023.1 or equivalent Verilog simulation tool.
+# Apparatus Required
+- **Vivado 2023.1 or equivalent Verilog simulation tool.**
 
-Procedure
-Launch Vivado 2023.1:
+# Procedure
+# 1. Launch Vivado 2023.1
+- Open Vivado and create a new project.
 
-Open Vivado and create a new project.
-Write the Verilog Code for Swapping:
+# 2. Write the Verilog Code for Swapping:
+- Write the Verilog code that swaps the values of three numbers (a, b, and c) using basic arithmetic or bitwise operations without using temporary variables.
 
-Write the Verilog code that swaps the values of three numbers (a, b, and c) using basic arithmetic or bitwise operations without using temporary variables.
-Create the Testbench:
+# 3. Create the Testbench:
+- Write a testbench to simulate the swapping operation. The testbench should initialize three numbers, trigger the swapping module, and check if the values are swapped correctly.
 
-Write a testbench to simulate the swapping operation. The testbench should initialize three numbers, trigger the swapping module, and check if the values are swapped correctly.
-Add the Verilog Files:
+# 4. Add the Verilog Files:
+- Add the Verilog module and the testbench file to the Vivado project.
 
-Add the Verilog module and the testbench file to the Vivado project.
-Run Simulation:
+# 5. Run Simulation:
+- Run the behavioral simulation in Vivado to verify the swapping operation.
 
-Run the behavioral simulation in Vivado to verify the swapping operation.
-Observe the Waveforms:
+# 6. Observe the Waveforms:
+- Examine the waveform to confirm that the values of the three numbers are swapped as expected.
 
-Examine the waveform to confirm that the values of the three numbers are swapped as expected.
-Save and Document Results:
+# 7. Save and Document Results:
+- Capture the waveform output and include the results in your report for verification.
 
-Capture the waveform output and include the results in your report for verification.
-
-Verilog Code:
+# Verilog Code:
 ```
 // swap_three_numbers.v
 module swap_three_numbers (
@@ -49,7 +48,7 @@ endmodule
 ## Simulated Output
 ![swapping_numbers](https://github.com/user-attachments/assets/84c583b6-6ef1-4e0a-9ef3-dd2839622885)
 
-Testbench for Swapping Three Numbers:
+# Testbench for Swapping Three Numbers:
 ```
 // swap_three_numbers_tb.v
 `timescale 1ns / 1ps
@@ -98,5 +97,5 @@ endmodule
 ## Simulated Output
 ![image](https://github.com/user-attachments/assets/a98c1286-b3ac-4512-9db0-47402f8fde57)
 
-Conclusion
+# Conclusion
 In this experiment, a Verilog HDL code for swapping three numbers was designed and successfully simulated. The testbench verified the swapping operation, showing that the values of three input numbers (a, b, and c) were swapped correctly without the use of temporary variables. This experiment demonstrated the effectiveness of Verilog in implementing logical operations and control mechanisms such as swapping values. The simulation results confirm the correct functionality of the design.
