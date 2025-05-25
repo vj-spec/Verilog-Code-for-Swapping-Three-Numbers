@@ -50,10 +50,9 @@ endmodule
 ![swapping_numbers](https://github.com/user-attachments/assets/84c583b6-6ef1-4e0a-9ef3-dd2839622885)
 
 Testbench for Swapping Three Numbers:
-
+```
 // swap_three_numbers_tb.v
 `timescale 1ns / 1ps
-```
 module swap_three_numbers_tb;
 
     // Inputs
