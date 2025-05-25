@@ -6,25 +6,25 @@ To design and simulate a Verilog HDL code for swapping the values of three numbe
 - **Vivado 2023.1 or equivalent Verilog simulation tool.**
 
 # Procedure
-# 1. Launch Vivado 2023.1
+### 1. Launch Vivado 2023.1
 - Open Vivado and create a new project.
 
-# 2. Write the Verilog Code for Swapping:
+### 2. Write the Verilog Code for Swapping:
 - Write the Verilog code that swaps the values of three numbers (a, b, and c) using basic arithmetic or bitwise operations without using temporary variables.
 
-# 3. Create the Testbench:
+### 3. Create the Testbench:
 - Write a testbench to simulate the swapping operation. The testbench should initialize three numbers, trigger the swapping module, and check if the values are swapped correctly.
 
-# 4. Add the Verilog Files:
+### 4. Add the Verilog Files:
 - Add the Verilog module and the testbench file to the Vivado project.
 
-# 5. Run Simulation:
+### 5. Run Simulation:
 - Run the behavioral simulation in Vivado to verify the swapping operation.
 
-# 6. Observe the Waveforms:
+### 6. Observe the Waveforms:
 - Examine the waveform to confirm that the values of the three numbers are swapped as expected.
 
-# 7. Save and Document Results:
+### 7. Save and Document Results:
 - Capture the waveform output and include the results in your report for verification.
 
 # Verilog Code:
